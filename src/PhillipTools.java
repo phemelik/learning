@@ -1,3 +1,6 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class PhillipTools {
@@ -16,7 +19,12 @@ public class PhillipTools {
 
     private static String reading ( String m ) {
         System.out.print(m);
-        Scanner scanner = new Scanner(System.in);
-        return scanner.next();
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        try {
+            return reader.readLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+            return "";
+        }
     }
 }
