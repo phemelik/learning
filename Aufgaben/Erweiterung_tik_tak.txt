@@ -1,0 +1,13 @@
+﻿Erweiterungen zur tiktak-Aufgabe:
+
+Objektorientierung: Nutzt Konzepte der Objektorientierung um die Aufgaben von tiktak in eine Klasse zu kapseln.
+
+Testing: Schreibt Unit-Tests für die neue Klasse
+
+Exception: Sollte die neue Klasse eine Zahl <0 erhalten soll sie eine IllegalArgumentException werfen.
+
+Testfall: Das korrekte Werfen der Exception soll auch in einem Unit-Test geprüft werden.
+
+Vererbung: Schreibt statt der IllegalArgumentException eine eigene Exception (bspw. TikTakKleinerNullException), 
+die geworfen und durch JUnit auch getestet wird.
+ 
