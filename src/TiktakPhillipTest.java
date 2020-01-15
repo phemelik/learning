@@ -6,7 +6,7 @@ import java.io.InputStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ExceptionTest {
+class TiktakPhillipTest {
 
     InputStream example = new ByteArrayInputStream("0".getBytes());
     String message = "Das ist ein Test.";
