@@ -1,14 +1,21 @@
+import org.junit.jupiter.api.Assertions;
+
 import java.io.InputStream;
 
 public class TiktakPhillip {
-    public static void main (String[] args) {
 
-        output(input());
+    public static void main (String[] args) {
+        InputStream inputStream = System.in;
+
+        output(input(inputStream));
 
     }
 
-    public static int input () {
-        InputStream inputStream = System.in;
+    public static int input ( InputStream inputStream) {
+        int number = PhillipTools.readInteger("Gib eine natürliche Zahl zwischen 1 und 100 ein: ", inputStream);
+        if ( number <= 0 || number > 100 ) {
+            throw new IllegalArgumentException("Zahl ist <= 0 oder > 100.");
+        }
 
         /* while ( number <= 0 || number > 100 ) {
             if ( number <= 0 ) {
@@ -19,7 +26,7 @@ public class TiktakPhillip {
             }
         } */
 
-        return PhillipTools.readInteger("Gib eine natürliche Zahl zwischen 1 und 100 ein: ", inputStream);
+        return number;
     }
 
     public static void output ( int number ) {
