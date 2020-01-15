@@ -4,17 +4,17 @@ import java.io.InputStream;
 
 public class TiktakPhillip {
 
-    public static void main (String[] args) {
+    public static void main (String[] args) throws TiktakPhillipException {
         InputStream inputStream = System.in;
 
         output(input(inputStream));
 
     }
 
-    public static int input ( InputStream inputStream) {
+    public static int input ( InputStream inputStream) throws TiktakPhillipException {
         int number = PhillipTools.readInteger("Gib eine natürliche Zahl zwischen 1 und 100 ein: ", inputStream);
         if ( number <= 0 || number > 100 ) {
-            throw new IllegalArgumentException("Zahl ist <= 0 oder > 100.");
+            throw new TiktakPhillipException();
         }
 
         /* while ( number <= 0 || number > 100 ) {

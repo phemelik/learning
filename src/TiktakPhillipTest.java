@@ -13,7 +13,7 @@ class TiktakPhillipTest {
 
     @Test
     public void input() {
-        Assertions.assertThrows(IllegalArgumentException.class, () -> {
+        Assertions.assertThrows(TiktakPhillipException.class, () -> {
             TiktakPhillip.input(example);
         });
     }
