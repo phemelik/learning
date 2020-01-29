@@ -3,23 +3,23 @@
 Modelliert ein Bowling-Spiel in Java. Baut dabei auf die bisher gelernten Konzepte der Objektorientierung auf und sorgt dafür, 
 dass eure Klassen und Methoden durch sinnvolle Testfälle abgedeckt sind.
 
-Legt eine Klasse BowlingGame an. Ein BowlingGame besitzt 10 Pins, die entweder stehen oder liegen können. 
+Legt eine Klasse BowlingPin an. Ein BowlingPin besitzt 10 Pins, die entweder stehen oder liegen können.
 Es soll eine Methode reset() geben, die ein Spiel zurücksetzt und alle Pins aufstellt. Dazu soll es eine Methode geben, 
 die das Spielfeld auf der Konsole ausgibt (in der typischen Dreieck-Formatierung eines Bowling-Spiels).  
 Implementiert dazu eine Methode rollBall(), die eine zufällige Anzahl stehender Pins umwirft. 
-Das BowlingGame soll jederzeit über jeweils eine Methode Auskunft geben können, wie viele Pins stehen bzw. umgeworfen wurden.
+Das BowlingPin soll jederzeit über jeweils eine Methode Auskunft geben können, wie viele Pins stehen bzw. umgeworfen wurden.
 
 Den Status der Pins kann man auf verschiedene Arten repräsentieren, bspw. über boolean-Attribute, 
 Boolen-Attribute (wo ist der Unterschied?) – oder über eine Enumeration. 
-Legt zur Repräsentation des Pin-Status eine Enumeration PinState an und nutzt diese in eurem BowlingGame.
+Legt zur Repräsentation des BowlingPin-Status eine Enumeration PinState an und nutzt diese in eurem BowlingPin.
 
-Es gibt mehrere Möglichkeiten, die 10 Pins in einem BowlingGame zu programmieren, 
+Es gibt mehrere Möglichkeiten, die 10 Pins in einem BowlingPin zu programmieren,
 bspw. als 10 jeweils einzelne Attribute oder über eine Sammlung (Collection) von Attribute. 
-Nutzt zur Repräsentation eurer 10 Pins eine ArrayList und stellt für euer BowlingGame Methoden zur Verfügung, 
-um ein bestimmtes Pin aufzustellen oder umzuwerfen. Welche alternativen Repräsentationen neben einer ArrayList wären möglich?
+Nutzt zur Repräsentation eurer 10 Pins eine ArrayList und stellt für euer BowlingPin Methoden zur Verfügung,
+um ein bestimmtes BowlingPin aufzustellen oder umzuwerfen. Welche alternativen Repräsentationen neben einer ArrayList wären möglich?
 
-Fügt eurer Klasse BowlingGame einen zweiten Konstruktor BowlingGame(int numberOfPins) hinzu, 
+Fügt eurer Klasse BowlingPin einen zweiten Konstruktor BowlingPin(int numberOfPins) hinzu,
 der als Parameter die Anzahl der Pins für das Feld bekommt. Sorgt dafür, 
 dass sämtliche Funktionen des BowlingGames mit der dynamischen Größe umgehen können (inklusive der Ausgabe auf der Konsole). 
 Invalide oder zu große Angaben der numberOfPins sollen zu einer InvalidArgumentException führen. 
-Der Standard-Konstruktor BowlingGame() soll den neuen Konstruktor mit 10 als Standardgröße aufrufen.
+Der Standard-Konstruktor BowlingPin() soll den neuen Konstruktor mit 10 als Standardgröße aufrufen.
