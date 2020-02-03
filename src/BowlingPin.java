@@ -14,7 +14,7 @@ public class BowlingPin {
         private static final int SIZE = VALUES.length;
         private static final Random RANDOM = new Random();
 
-        public static pinState getRandomState()  {
+        public static pinState getRandomState() {
             return VALUES[RANDOM.nextInt(SIZE)];
         }
     }
@@ -40,7 +40,7 @@ public class BowlingPin {
 
     public static void bowlingGame(int numberOfPins) {
         game = new Pin[numberOfPins];
-        for(int i = 0; i < game.length; i++) {
+        for (int i = 0; i < game.length; i++) {
             game[i] = new Pin();
         }
         if (numberOfPins == 3) {
@@ -70,7 +70,7 @@ public class BowlingPin {
             InputStream inputStream = System.in;
             int numberOfPins = PhillipTools.readInteger("Mit wie vielen Pins möchtest du spielen? (3/6/10/15)", inputStream);
 
-            if ( numberOfPins != 3 && numberOfPins != 6 && numberOfPins != 10 && numberOfPins != 15 ) {
+            if (numberOfPins != 3 && numberOfPins != 6 && numberOfPins != 10 && numberOfPins != 15) {
                 throw new InvalidArgumentException();
             }
          /* while ( numberOfPins != 3 && numberOfPins != 6 && numberOfPins != 10 && numberOfPins != 15 ) {

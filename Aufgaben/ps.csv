@@ -1,0 +1,90 @@
+Ordnungszahl,Name,Symbol,Periode,Gruppe
+1,Hydrogen,H,1,1,Gas
+2,Helium,He,18,1,Gas
+3,Lithium,Li,1,2,Alkali
+4,Beryllium,Be,2,2,EarthAlkali
+5,Boron,B,13,2,EarthAlkali
+6,Carbon,C,14,2,EarthAlkali
+7,Nitrogen,N,15,2,Gas
+8,Oxygen,O,16,2,Gas
+9,Fluorine,F,17,2,Gas
+10,Neon,Ne,18,2,Gas
+11,Sodium (Natrium),Na,1,3,Alkali
+12,Magnesium,Mg,2,3,EarthAlkali
+13,Aluminium (Aluminum),Al,13,3,EarthAlkali
+14,Silicon,Si,14,3,EarthAlkali
+15,Phosphorus,P,15,3,EarthAlkali
+16,Sulfur,S,16,3,EarthAlkali
+17,Chlorine,Cl,17,3,Gas
+18,Argon,Ar,18,3,Gas
+19,Potassium (Kalium),K,1,4,Alkali
+20,Calcium,Ca,2,4,EarthAlkali
+21,Scandium,Sc,3,4,EarthAlkali
+22,Titanium,Ti,4,4,EarthAlkali
+23,Vanadium,V,5,4,EarthAlkali
+24,Chromium,Cr,6,4,EarthAlkali
+25,Manganese,Mn,7,4,EarthAlkali
+26,Iron (Ferrum),Fe,8,4,EarthAlkali
+27,Cobalt,Co,9,4,EarthAlkali
+28,Nickel,Ni,10,4,EarthAlkali
+29,Copper (Cuprum),Cu,11,4,EarthAlkali
+30,Zinc,Zn,12,4,EarthAlkali
+31,Gallium,Ga,13,4,EarthAlkali
+32,Germanium,Ge,14,4,EarthAlkali
+33,Arsenic,As,15,4,EarthAlkali
+34,Selenium,Se,16,4,EarthAlkali
+35,Bromine,Br,17,4,Liquid
+36,Krypton,Kr,18,4,Gas
+37,Rubidium,Rb,1,5,Alkali
+38,Strontium,Sr,2,5,EarthAlkali
+39,Yttrium,Y,3,5,EarthAlkali
+40,Zirconium,Zr,4,5,EarthAlkali
+41,Niobium,Nb,5,5,EarthAlkali
+42,Molybdenum,Mo,6,5,EarthAlkali
+43,Technetium,Tc,7,5,EarthAlkali
+44,Ruthenium,Ru,8,5,EarthAlkali
+45,Rhodium,Rh,9,5,EarthAlkali
+46,Palladium,Pd,10,5,EarthAlkali
+47,Silver (Argentum),Ag,11,5,EarthAlkali
+48,Cadmium,Cd,12,5,EarthAlkali
+49,Indium,In,13,5,EarthAlkali
+50,Tin (Stannum),Sn,14,5,EarthAlkali
+51,Antimony (Stibium),Sb,15,5,EarthAlkali
+52,Tellurium,Te,16,5,EarthAlkali
+53,Iodine,I,17,5,EarthAlkali
+54,Xenon,Xe,18,5,Gas
+55,Caesium (Cesium),Cs,1,6,Alkali
+56,Barium,Ba,2,6,EarthAlkali
+71,Lutetium,Lu,3,6,EarthAlkali
+72,Hafnium,Hf,4,6,EarthAlkali
+73,Tantalum,Ta,5,6,EarthAlkali
+74,Tungsten (Wolfram),W,6,6,EarthAlkali
+75,Rhenium,Re,7,6,EarthAlkali
+76,Osmium,Os,8,6,EarthAlkali
+77,Iridium,Ir,9,6,EarthAlkali
+78,Platinum,Pt,10,6,EarthAlkali
+79,Gold (Aurum),Au,11,6,EarthAlkali
+80,Mercury (Hydrargyrum),Hg,12,6,Liquid
+81,Thallium,Tl,13,6,EarthAlkali
+82,Lead (Plumbum),Pb,14,6,EarthAlkali
+83,Bismuth,Bi,15,6,EarthAlkali
+84,Polonium,Po,16,6,EarthAlkali
+85,Astatine,At,17,6,EarthAlkali
+86,Radon,Rn,18,6,Gas
+87,Francium,Fr,1,7,Alkali
+88,Radium,Ra,2,7,EarthAlkali
+103,Lawrencium,Lr,3,7,Liquid
+104,Rutherfordium,Rf,4,7,Liquid
+105,Dubnium,Db,5,7,Unknown
+106,Seaborgium,Sg,6,7,Unknown
+107,Bohrium,Bh,7,7,Unknown
+108,Hassium,Hs,8,7,Unknown
+109,Meitnerium,Mt,9,7,Unknown
+110,Darmstadtium,Ds,10,7,Unknown
+111,Roentgenium,Rg,11,7,Unknown
+112,Ununbium,Uub,12,7,Unknown
+113,Ununtrium,Uut,13,7,Unknown
+114,Ununquadium,Uuq,14,7,Unknown
+115,Ununpentium,Uup,15,7,Unknown
+116,Ununhexium,Uuh,16,7,Unknown
+118,Ununoctium,Uuo,18,7,Unknown

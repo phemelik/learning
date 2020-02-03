@@ -2,7 +2,7 @@ public class Pin {
     private static String name = "Pin";
     private BowlingPin.pinState state = BowlingPin.pinState.STANDING;
 
-    public Pin () {
+    public Pin() {
 
     }
 
