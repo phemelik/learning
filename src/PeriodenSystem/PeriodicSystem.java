@@ -22,7 +22,7 @@ public class PeriodicSystem {
                 }
             }
         }
-        if(help != null) {
+        if (help != null) {
             System.out.println(help);
         } else {
             throw new NoElementException();
@@ -59,7 +59,7 @@ public class PeriodicSystem {
         }
 
         for (int i = 0; i < elementArray.length; i++) {
-            if(elementArray[i] != null) {
+            if (elementArray[i] != null) {
                 aggregateArray[i] = elementArray[i].aggregateState.equals("Gas");
             }
         }
@@ -71,7 +71,7 @@ public class PeriodicSystem {
 
     public static void main(String[] args) throws NoElementException, InvalidPeriodGroupException {
         printSystem();
-        elementSearch(18,1);
+        elementSearch(18, 1);
         System.out.println(ChemicalElement.isGas(1, aggregateArray));
         System.out.println(elementArray[76].isAlkali());
         System.out.println(elementArray[80].isLiquid());
