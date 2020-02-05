@@ -1,4 +1,4 @@
-package periodicSystem;
+package periodicsystem;
 
 public class ChemicalElement implements Comparable {
     public final int atomicNumber, period, group;

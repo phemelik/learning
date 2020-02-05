@@ -1,4 +1,4 @@
-package periodicSystem;
+package periodicsystem;
 
 import org.junit.jupiter.api.Test;
 

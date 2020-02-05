@@ -1,7 +1,7 @@
 package bowling;
 
 import org.junit.jupiter.api.Test;
-import phillipTools.*;
+import philliptools.*;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;

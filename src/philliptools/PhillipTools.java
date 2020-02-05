@@ -1,4 +1,4 @@
-package phillipTools;
+package philliptools;
 
 import java.io.BufferedReader;
 import java.io.IOException;

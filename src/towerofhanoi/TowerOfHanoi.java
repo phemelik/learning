@@ -1,6 +1,6 @@
-package towerOfHanoi;
+package towerofhanoi;
 
-import phillipTools.*;
+import philliptools.*;
 
 import java.io.InputStream;
 

@@ -1,4 +1,4 @@
-package phillipTools;
+package philliptools;
 
 import org.junit.jupiter.api.Test;
 

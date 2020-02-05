@@ -1,4 +1,4 @@
-package periodicSystem;
+package periodicsystem;
 
 public class NoElementException extends Exception {
 

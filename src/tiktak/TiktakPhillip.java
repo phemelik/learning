@@ -2,7 +2,7 @@ package tiktak;
 
 import java.io.InputStream;
 
-import phillipTools.*;
+import philliptools.*;
 
 public class TiktakPhillip {
 

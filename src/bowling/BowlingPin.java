@@ -3,7 +3,7 @@ package bowling;
 import java.io.InputStream;
 import java.util.Random;
 
-import phillipTools.*;
+import philliptools.*;
 
 public class BowlingPin {
 
