@@ -1,11 +1,11 @@
-﻿Aufgabe: Bowling
+﻿Aufgabe: bowling
 
-Modelliert ein Bowling-Spiel in Java. Baut dabei auf die bisher gelernten Konzepte der Objektorientierung auf und sorgt dafür, 
+Modelliert ein bowling-Spiel in Java. Baut dabei auf die bisher gelernten Konzepte der Objektorientierung auf und sorgt dafür,
 dass eure Klassen und Methoden durch sinnvolle Testfälle abgedeckt sind.
 
 Legt eine Klasse BowlingPin an. Ein BowlingPin besitzt 10 Pins, die entweder stehen oder liegen können.
 Es soll eine Methode reset() geben, die ein Spiel zurücksetzt und alle Pins aufstellt. Dazu soll es eine Methode geben, 
-die das Spielfeld auf der Konsole ausgibt (in der typischen Dreieck-Formatierung eines Bowling-Spiels).  
+die das Spielfeld auf der Konsole ausgibt (in der typischen Dreieck-Formatierung eines bowling-Spiels).
 Implementiert dazu eine Methode rollBall(), die eine zufällige Anzahl stehender Pins umwirft. 
 Das BowlingPin soll jederzeit über jeweils eine Methode Auskunft geben können, wie viele Pins stehen bzw. umgeworfen wurden.
 
