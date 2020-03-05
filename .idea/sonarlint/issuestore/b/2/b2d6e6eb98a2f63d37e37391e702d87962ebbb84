@@ -1,0 +1,32 @@
+
+Esquid:S30106")Remove this assignment of "elementArray".(Ä•›×üÿÿÿÿ
+isquid:S001173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë›Ïè
+O
+squid:S106M"9Replace this use of System.out or System.err by a logger.(¢Í»¨
+†"squid:ClassVariableVisibilityCheck"XMake elementArray a static final constant or non-public and provide accessors if needed.(—…¸¹
+4squid:S2386"Make this member "protected".(—…¸¹
+Isquid:S1444"2Make this "public static elementArray" field final(—…¸¹
+nsquid:S00117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûğ…úùÿÿÿÿ
+O
+squid:S106L"9Replace this use of System.out or System.err by a logger.(Ñš Û
+9squid:S2386
+"Make this member "protected".( ©«ïıÿÿÿÿ
+\squid:S2095."EUse try-with-resources or close this "Scanner" in a "finally" clause.(Ñ—çŒ
+O
+squid:S106#"9Replace this use of System.out or System.err by a logger.(¿ß”
+O
+squid:S106N"9Replace this use of System.out or System.err by a logger.(úì¡Ã
+"squid:ClassVariableVisibilityCheck
+"ZMake aggregateArray a static final constant or non-public and provide accessors if needed.( ©«ïıÿÿÿÿ
+Esquid:S1066"/Merge this if statement with the enclosing one.(ê’û@
+T
+squid:S106:"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+O
+squid:S106K"9Replace this use of System.out or System.err by a logger.(âíŸ€
+Gsquid:S3010?"+Remove this assignment of "aggregateArray".(ÿÄ¡Çÿÿÿÿÿ
+ƒ"squid:ClassVariableVisibilityCheck	"PMake help a static final constant or non-public and provide accessors if needed.(ÛµÙõıÿÿÿÿ
+Fsquid:S1444	"*Make this "public static help" field final(ÛµÙõıÿÿÿÿ
+Psquid:S1444
+"4Make this "public static aggregateArray" field final( ©«ïıÿÿÿÿ
+N
+squid:S106"9Replace this use of System.out or System.err by a logger.(‰ñÖ^

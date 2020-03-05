@@ -1,0 +1,6 @@
+
+_squid:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(ƒâØšşÿÿÿÿ
+§%squid:RedundantThrowsDeclarationCheck"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(…®óL
+\squid:S2184"@Cast one of the operands of this addition operation to a "long".(ƒâØšşÿÿÿÿ
+Psquid:S1172"4Remove this unused method parameter "philosopherId".(æ…ôøÿÿÿÿ
+‡"squid:ClassVariableVisibilityCheck"RMake forkId a static final constant or non-public and provide accessors if needed.(°ä˜8îã©¢„.

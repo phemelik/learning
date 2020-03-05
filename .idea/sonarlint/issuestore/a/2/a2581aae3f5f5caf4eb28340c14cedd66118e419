@@ -1,0 +1,6 @@
+
+psquid:S1210("YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(‡ÕÔÏ
+:squid:S1659"#Declare "group" on a separate line.(îÎê€
+;squid:S1659"$Declare "period" on a separate line.(îÎê€
+@squid:S1659"$Declare "symbol" on a separate line.(İüÅ¾ùÿÿÿÿ
+Hsquid:S1659",Declare "aggregateState" on a separate line.(İüÅ¾ùÿÿÿÿ

@@ -1,0 +1,48 @@
+
+O
+squid:S1060"9Replace this use of System.out or System.err by a logger.(ŸÒšë
+ˆ"squid:ClassVariableVisibilityCheck
+"ZMake numberOfPieces a static final constant or non-public and provide accessors if needed.(î‰¶
+jsquid:S1192("NDefine a constant instead of duplicating this literal " Minuten und " 7 times.(óÇÎúÿÿÿÿ
+=squid:S1659	"!Declare "end" on a separate line.(Øœ§çùÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(şÇ‘œùÿÿÿÿ
+>squid:S1659	""Declare "help" on a separate line.(Øœ§çùÿÿÿÿ
+ysquid:S1192("]Define a constant instead of duplicating this literal "Das umstapeln des Turms mit " 9 times.(óÇÎúÿÿÿÿ
+O
+squid:S106."9Replace this use of System.out or System.err by a logger.(ĞµÜÂ
+T
+squid:S106&"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+T
+squid:S1062"9Replace this use of System.out or System.err by a logger.(ñØ±¼üÿÿÿÿ
+O
+squid:S1064"9Replace this use of System.out or System.err by a logger.(ø½ß
+T
+squid:S1066"9Replace this use of System.out or System.err by a logger.(û™ö‘ûÿÿÿÿ
+O
+squid:S1068"9Replace this use of System.out or System.err by a logger.(ÖåËû
+Gsquid:S1444	"+Make this "public static start" field final(Øœ§çùÿÿÿÿ
+O
+squid:S106,"9Replace this use of System.out or System.err by a logger.(ƒ Ñ¡
+dsquid:S1192("HDefine a constant instead of duplicating this literal " Tage, " 3 times.(óÇÎúÿÿÿÿ
+‚"squid:ClassVariableVisibilityCheck	"OMake end a static final constant or non-public and provide accessors if needed.(Øœ§çùÿÿÿÿ
+O
+squid:S106@"9Replace this use of System.out or System.err by a logger.(° âÂ
+Fsquid:S1444	"*Make this "public static help" field final(Øœ§çùÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+msquid:S2234>"VParameters to play have the same names but not the same order as the method arguments.(¿Ïà¦
+nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(–úã³úÿÿÿÿ
+„"squid:ClassVariableVisibilityCheck	"QMake start a static final constant or non-public and provide accessors if needed.(Øœ§çùÿÿÿÿ
+lsquid:S1192("PDefine a constant instead of duplicating this literal " Scheiben, hat " 9 times.(óÇÎúÿÿÿÿ
+psquid:S1192("TDefine a constant instead of duplicating this literal " Sekunden gedauert." 9 times.(óÇÎúÿÿÿÿ
+Esquid:S1444	")Make this "public static end" field final(Øœ§çùÿÿÿÿ
+gsquid:S1192("KDefine a constant instead of duplicating this literal " Stunden, " 5 times.(óÇÎúÿÿÿÿ
+Ksquid:S1444
+"4Make this "public static numberOfPieces" field final(î‰¶
+T
+squid:S106("9Replace this use of System.out or System.err by a logger.(óÇÎúÿÿÿÿ
+O
+squid:S106*"9Replace this use of System.out or System.err by a logger.(Í³·›
+ƒ"squid:ClassVariableVisibilityCheck	"PMake help a static final constant or non-public and provide accessors if needed.(Øœ§çùÿÿÿÿ
+msquid:S2234B"VParameters to play have the same names but not the same order as the method arguments.(Á¼×Ò
