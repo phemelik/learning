@@ -16,7 +16,7 @@ public class KnopfHorcher implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         Date datum = new Date();
-        datumsAnzeige.setText(Zeitangabe.gewaehlt.format(datum));
+        datumsAnzeige.setText(Aufgabe2.gewaehlt.format(datum));
     }
 
 }

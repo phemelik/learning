@@ -15,10 +15,10 @@ public class Aufgabe2 extends JFrame{
     private JLabel datumsAnzeige;
     private Date datum = new Date();
     private JButton aktualisierung;
-    final SimpleDateFormat kurz = new SimpleDateFormat("EE' , 'd'. 'MMMMM, h:mm");
-    final SimpleDateFormat mittel = new SimpleDateFormat("d. MMMMM, h:mm:ss");
-    final SimpleDateFormat lang = new SimpleDateFormat( "d.MM.yyyy '('hh:mm')'");
-    public SimpleDateFormat gewaehlt = lang;
+    final static SimpleDateFormat kurz = new SimpleDateFormat("EE' , 'd'. 'MMMMM, h:mm");
+    final static SimpleDateFormat mittel = new SimpleDateFormat("d. MMMMM, h:mm:ss");
+    final static SimpleDateFormat lang = new SimpleDateFormat( "d.MM.yyyy '('hh:mm')'");
+    public static SimpleDateFormat gewaehlt = lang;
 
     public Aufgabe2() {
 
@@ -35,7 +35,7 @@ public class Aufgabe2 extends JFrame{
         c.add(aktualisierung, BorderLayout.SOUTH);
         AnzeigeListener aL = new AnzeigeListener();
         formatAuswahl.addItemListener(aL);
-        KnopfHorcher kH = new KnopfHorcher();
+        KnopfHorcher kH = new KnopfHorcher(datumsAnzeige);
         aktualisierung.addActionListener(kH);
 
     }
